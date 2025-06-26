@@ -605,25 +605,128 @@ nav .fa-solid{
     }
 }
 
+/* 🔸 Extra Small Phones (Vivo Y11, iPhone SE) */
+@media only screen and (max-width: 400px) {
+    nav {
+        padding: 10px;
+        width: 100%;
+    }
+    nav ul {
+        width: 130px;
+        height: 270px;
+    }
+    .titlename {
+        margin-right: 10px;
+    }
+    #header {
+        background-size: 65%;
+        height: 120vh;
+    }
+    #intro {
+        font-size: 18px;
+    }
+    #name {
+        font-size: 20px;
+    }
+    #profession, #developer-type {
+        font-size: 18px;
+    }
+    .abt-hm {
+        width: 100%;
+        font-size: 12px;
+    }
+    .about-col1 img {
+        width: 200px;
+    }
+    .sub-title {
+        font-size: 24px;
+    }
+    .project_list, .services_list {
+        grid-template-columns: 1fr;
+    }
+    .whatsapp-icon a img {
+        width: 50px;
+    }
+}
+
 /* 🔸 Small Phones (401px - 480px) */
 @media only screen and (min-width: 401px) and (max-width: 480px) {
-    #name, #profession, #developer-type {
+    nav {
+        padding: 10px;
+        width: 100%;
+    }
+    nav ul {
+        width: 140px;
+        height: 280px;
+    }
+    #intro {
+        font-size: 20px;
+    }
+    #name {
+        font-size: 22px;
+    }
+    #profession, #developer-type {
         font-size: 20px;
     }
     .abt-hm {
-        font-size: 14px;
+        width: 100%;
+        font-size: 13px;
+    }
+    .about-col1 img {
+        width: 220px;
     }
     .sub-title {
         font-size: 26px;
     }
+    .project_list, .services_list {
+        grid-template-columns: 1fr;
+    }
+    .whatsapp-icon a img {
+        width: 50px;
+    }
+}
+
+/* 🔸 Samsung Galaxy S8+, S9, Pixel, OnePlus */
+@media only screen 
+and (min-device-width: 360px) 
+and (max-device-width: 740px) 
+and (orientation: portrait) {
+    nav {
+        padding: 10px;
+        width: 100%;
+    }
     nav ul {
-        width: 140px;
+        width: 150px;
+        height: 300px;
+    }
+    #header {
+        background-size: 65%;
+        height: 125vh;
+    }
+    #intro {
+        font-size: 20px;
+    }
+    #name {
+        font-size: 24px;
+    }
+    #profession, #developer-type {
+        font-size: 22px;
+    }
+    .abt-hm {
+        width: 100%;
+        font-size: 14px;
     }
     .about-col1 img {
-        width: 230px;
+        width: 240px;
+    }
+    .sub-title {
+        font-size: 28px;
     }
     .project_list, .services_list {
         grid-template-columns: 1fr;
+    }
+    .whatsapp-icon a img {
+        width: 50px;
     }
 }
 
@@ -636,16 +739,13 @@ nav .fa-solid{
         font-size: 22px;
     }
     .abt-hm {
-        font-size: 16px;
+        font-size: 15px;
     }
     .sub-title {
         font-size: 28px;
     }
-    nav ul {
-        width: 150px;
-    }
     .about-col1 img {
-        width: 250px;
+        width: 260px;
     }
     .project_list, .services_list {
         grid-template-columns: 1fr;
@@ -661,13 +761,10 @@ nav .fa-solid{
         font-size: 24px;
     }
     .abt-hm {
-        font-size: 17px;
+        font-size: 16px;
     }
     .sub-title {
         font-size: 30px;
-    }
-    nav ul {
-        width: 160px;
     }
     .about-col1 img {
         width: 280px;
@@ -707,90 +804,8 @@ nav .fa-solid{
     .services_list {
         grid-template-columns: repeat(3, 1fr);
     }
-/*     Samsung Galaxy */
-@media only screen 
-  and (min-device-width: 360px) 
-  and (max-device-width: 740px) 
-  and (orientation: portrait) {
-
-    /* 🔹 Navbar */
-    nav {
-        padding: 10px;
-        width: 100%;
-    }
-    nav ul {
-        width: 140px;
-        height: 280px;
-    }
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    /* 🔹 Home Section */
-    #header {
-        background-size: 65%;
-        background-position: right;
-        height: 125vh;
-    }
-    .home-intro-s {
-        margin-top: 100px;
-    }
-    #intro {
-        font-size: 20px;
-    }
-    #name {
-        font-size: 22px;
-    }
-    #profession, #developer-type {
-        font-size: 20px;
-    }
-    .abt-hm {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    /* 🔹 About Section */
-    .about-col1 img {
-        width: 240px;
-    }
-    #about-col2 p {
-        font-size: 15px;
-    }
-    .sub-title {
-        font-size: 28px;
-    }
-
-    /* 🔹 Projects Section */
-    .project_list {
-        grid-template-columns: 1fr;
-    }
-    .project_list div {
-        padding: 15px;
-    }
-
-    /* 🔹 Services Section */
-    .services_list {
-        grid-template-columns: 1fr;
-    }
-    .services_list div {
-        padding: 15px;
-    }
-
-    /* 🔹 Contact Section */
-    .contact-top form {
-        padding: 15px;
-    }
-    .input-name, .input-no, .input-email, .input-message {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    /* 🔹 WhatsApp Icon */
-    .whatsapp-icon a img {
-        width: 50px;
-    }
-
 }
+
 
 
 #msg{
