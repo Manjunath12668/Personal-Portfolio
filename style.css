@@ -195,7 +195,7 @@ nav ul li a:hover:after{
     padding: 20px 0;
     color: #ababab;
     height: 80vh;
-    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .row{
     display: flex;
