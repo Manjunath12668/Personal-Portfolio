@@ -579,7 +579,7 @@ nav .fa-solid{
     display: none;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 978px){
         /*------------ navbar----------- */
         nav{
             display: flex;
