@@ -215,6 +215,7 @@ nav ul li a:hover:after{
 }
 #about-col2{
     flex-basis: 70%;
+    margin-bottom: 100px;
     /* margin-left: 5%; */
    
 }
