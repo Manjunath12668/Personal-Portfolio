@@ -194,7 +194,7 @@ nav ul li a:hover:after{
 #about_section{
     padding: 20px 0;
     color: #ababab;
-    height: 100vh;
+    height: 80vh;
     margin-top: 50px;
 }
 .row{
@@ -703,6 +703,89 @@ nav .fa-solid{
     .services_list {
         grid-template-columns: repeat(3, 1fr);
     }
+/*     Samsung Galaxy */
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 740px) 
+  and (orientation: portrait) {
+
+    /* 🔹 Navbar */
+    nav {
+        padding: 10px;
+        width: 100%;
+    }
+    nav ul {
+        width: 140px;
+        height: 280px;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* 🔹 Home Section */
+    #header {
+        background-size: 65%;
+        background-position: right;
+        height: 125vh;
+    }
+    .home-intro-s {
+        margin-top: 100px;
+    }
+    #intro {
+        font-size: 20px;
+    }
+    #name {
+        font-size: 22px;
+    }
+    #profession, #developer-type {
+        font-size: 20px;
+    }
+    .abt-hm {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* 🔹 About Section */
+    .about-col1 img {
+        width: 240px;
+    }
+    #about-col2 p {
+        font-size: 15px;
+    }
+    .sub-title {
+        font-size: 28px;
+    }
+
+    /* 🔹 Projects Section */
+    .project_list {
+        grid-template-columns: 1fr;
+    }
+    .project_list div {
+        padding: 15px;
+    }
+
+    /* 🔹 Services Section */
+    .services_list {
+        grid-template-columns: 1fr;
+    }
+    .services_list div {
+        padding: 15px;
+    }
+
+    /* 🔹 Contact Section */
+    .contact-top form {
+        padding: 15px;
+    }
+    .input-name, .input-no, .input-email, .input-message {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* 🔹 WhatsApp Icon */
+    .whatsapp-icon a img {
+        width: 50px;
+    }
+
 }
 
 
