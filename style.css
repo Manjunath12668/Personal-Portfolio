@@ -797,15 +797,6 @@ and (orientation: portrait) {
     }
 }
 
-/* 🔸 Desktop (Above 1024px) */
-@media only screen and (min-width: 1025px) {
-    .project_list {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .services_list {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
 /* 🔥 For Vivo Y11 (360px width) */
 @media only screen and (mix-width: 360px) {
 
@@ -889,6 +880,15 @@ and (orientation: portrait) {
         width: 45px;
     }
 }
+
+/* 🔸 Desktop (Above 1024px) */
+@media only screen and (min-width: 1025px) {
+    .project_list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .services_list {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 
 
